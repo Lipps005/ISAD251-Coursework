@@ -10,3 +10,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_commo
 
 The background image i used for my home page:
 https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80
+
+w3schools template for the home page:
+https://www.w3schools.com/howto/howto_css_full_page.asp
