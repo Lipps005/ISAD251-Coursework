@@ -1,5 +1,9 @@
 <?php 
-
+if(!isset($_SESSION))
+{
+      session_start();
+   $_SESSION['CART'] = array();
+}
 include_once 'navbar.php';
 
 ?>

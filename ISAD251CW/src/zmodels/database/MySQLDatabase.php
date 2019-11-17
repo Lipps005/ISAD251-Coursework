@@ -34,7 +34,13 @@ class MySQLDatabase implements Idatabase
         $host = "proj-mysql.uopnet.plymouth.ac.uk";
         $db = "ISAD251_SLippett";
         $dsn = "mysql:host=$host;dbname=$db";
-        self::$conn = new PDO($dsn, 'ISAD251_SLippett', 'ISAD251_22214241');
+        try
+         {
+            self::$conn = new PDO($dsn, 'ISAD251_SLippett', 'ISAD251_22214241');
+         }
+        catch(PDOException $ex)
+         {
+         }
         }
         
         return self::$conn;

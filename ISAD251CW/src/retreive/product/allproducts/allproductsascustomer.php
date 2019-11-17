@@ -26,10 +26,12 @@ class AllProductsAsCustomer extends MySQLDatabase
  //      {
  //         self::$instance = new AllProductsAsCustomer();
  //      }
-          
-       $Players = MySQLDatabase::getConnection()->query("SELECT * FROM Product");
+        if(MySQLDatabase::getConnection() != NULL)
+        {  
+         $Players = MySQLDatabase::getConnection()->query("SELECT * FROM Product");
+         return $Players;
+        }
        
-       return $Players;
        
     }
 }
