@@ -13,3 +13,5 @@ https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-1.2.1&ixid
 
 w3schools template for the home page:
 https://www.w3schools.com/howto/howto_css_full_page.asp
+
+i used code from w3schools https://www.w3schools.com/php/php_form_validation.asp to sanitize the user input. 
