@@ -30,6 +30,12 @@ The admin can also press a second button to change the status of the product, ma
 The admin may wish to create a new product. An empty card is created when the page is loaded, which the admin can populate as they wish. If they save the changes, and refresh the page, the new product is shown, and also appears in the customers product page. 
 
   </p>
+  
+  <h2> Web accessibility tests</h2>
+  <img src="Web Accessibility test.png">
+   <img src="Web Accessibility test 2.png">
+   <img src="Web Accessibility test 3.png">
+    <img src="Web Accessibility test 4.png">
 </html>
 
 
